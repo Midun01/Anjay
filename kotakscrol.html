@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<link href="https://i.ibb.co.com/8BQK7KX/Photoroom-20241028-142750.png" rel="shortcut icon" type="image/x-icon" />
+<meta property="og:title" content="TOKO UNGU" />
+<meta property="og:description" content="Aksesoris BTS Lovers" />
+<meta property="og:image" content="https://i.ibb.co.com/8BQK7KX/Photoroom-20241028-142750.png">
+<head>
+<title>STORE KPOP LOVERS</title>
+<style>
+body{
+background-image: url(https://i.top4top.io/p_32630oqm70.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+height: 100%;
+}
+.title{
+text-align: center;
+font-size: 2.5em;
+color: #000;
+}
+#tombol1 {
+width: 460px;
+height: 85px;
+background-color: transparent;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+border-radius: 15px;
+}
+#tombol2 {
+width: 460px;
+height: 85px;
+background-color: transparent;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+border-radius: 15px;
+}
+#tombol3 {
+width: 460px;
+height: 85px;
+background-color: transparent;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+border-radius: 15px;
+}
+#tombol4 {
+width: 460px;
+height: 85px;
+background-color: transparent;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+border-radius: 15px;
+}
+.klik1{
+border: 1px solid gainsboro;
+background-image: url(https://h.top4top.io/p_32642wcyc0.png);
+float: left;
+width: 460px;
+height: 85px;
+margin: 5px;
+margin-top: 0;
+border-radius: 15px;
+} 
+.klik2{
+border: 1px solid gainsboro;
+background-image: url(https://h.top4top.io/p_32642wcyc0.png);
+float: left;
+width: 460px;
+height: 85px;
+margin: 5px;
+margin-top: 0;
+border-radius: 15px;
+} 
+.klik3{
+border: 1px solid gainsboro;
+background-image: url(https://h.top4top.io/p_32642wcyc0.png);
+float: left;
+width: 460px;
+height: 85px;
+margin: 5px;
+margin-top: 0;
+border-radius: 15px;
+} 
+.klik4{
+border: 1px solid gainsboro;
+background-image: url(https://h.top4top.io/p_32642wcyc0.png);
+float: left;
+width: 460px;
+height: 85px;
+margin: 5px;
+margin-top: 0;
+border-radius: 15px;
+} 
+.kotakb {
+height: 300px;
+overflow-y: scroll;
+width: 100px; 
+width: 960px;
+background-color: white;
+margin-top: 41px;
+position : fixed;
+border-radius: 20px;
+box-shadow: 
+0 0 10px rgba(255, 255, 255, 0.5),
+0 0 20px rgba(255, 255, 255, 0.3),
+inset 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.kotak {
+height: 1350px;
+overflow-y: scroll;
+background-color: #222222;
+border-radius: 20px;
+margin-top: 500px;
+width: 960px;
+margin-left : 0px;
+margin-right: 0px;
+}
+.nav1 {
+height: 210px; 
+overflow-y: scroll; 
+padding : 5px;
+width: 960px;
+background-color: #222222;
+margin-top: 15px;
+position : fixed;
+box-shadow: 
+0 0 10px rgba(255, 255, 255, 0.5),
+0 0 20px rgba(255, 255, 255, 0.3),
+inset 0 0 5px rgba(255, 255, 255, 0.8);
+border-radius: 20px;
+}
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.chat-container {
+width: 100%;
+max-width: 500px;
+background-image: url(https://g.top4top.io/p_3256nuuh70.png) ;
+border-radius: 20px;
+box-shadow: 
+0 0 10px rgba(255, 255, 255, 0.5),
+0 0 20px rgba(255, 255, 255, 0.3),
+inset 0 0 5px rgba(255, 255, 255, 0.8);
+padding: 20px;
+backdrop-filter: blur(8px);
+animation: fadeIn 0.5s ease;
+}
+.chat-header {
+display: flex;
+align-items: center;
+border-bottom: 1px solid #eef2f7;
+padding-bottom: 15px;
+margin-bottom: 15px;
+}
+.bot-avatar {
+width: 45px;
+height: 45px;
+background-color: #fff;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 15px;
+flex-shrink: 0;
+}
+.bot-avatar svg {
+width: 25px;
+height: 25px;
+fill: #fff;
+}
+.chat-header h1 {
+font-size: 1.5rem;
+color: #fff;
+}
+.chat-messages {
+height: 400px;
+overflow-y: auto;
+padding: 15px;
+background: transparent;
+border-radius: 15px;
+margin-bottom: 15px;
+scroll-behavior: smooth;
+}
+.message {
+margin-bottom: 15px;
+display: flex;
+align-items: flex-start;
+opacity: 0;
+animation: messageSlide 0.3s ease-out forwards;
+}
+.user-message {
+justify-content: flex-end;
+}
+.bot-message {
+justify-content: flex-start;
+}
+.message-content {
+padding: 12px 18px;
+border-radius: 18px;
+max-width: 75%;
+font-size: 0.95rem;
+line-height: 1.5;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.user-message .message-content {
+background-color: #329760;
+color: #fff;
+}
+.bot-message .message-content {
+background: #363636;
+color: #fff;
+}
+.input-container {
+display: flex;
+gap: 10px;
+padding: 10px;
+background: #transparent;
+border-radius: 30px;      
+}
+#message-input {
+flex: 1;
+background-color: #363636;
+padding: 10px;      
+border-radius: 20px;
+transition: border-color 0.3s;
+}
+#message-input:focus {
+outline: none;
+border-color: #fff;
+}
+#send-button {
+padding: 12px 20px;
+background-color: #329760;
+color: #00ff00;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: transform 0.2s, box-shadow 0.2s;
+font-weight: bold;
+}
+#send-button:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+}
+.typing-indicator {
+display: none;
+padding: 10px;
+color: #666;
+font-style: italic;
+animation: pulse 2.9s infinite;
+}
+@keyframes pulse {
+0%, 100% { opacity: 0.5; }
+50% { opacity: 1; }
+}
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+@keyframes messageSlide {
+from { opacity: 0; transform: translateY(15px); }
+to { opacity: 1; transform: translateY(0); }
+}
+h1 {
+color: white;
+}
+</style></head>
+<body><div class="kotakb"><br><br><br><br><br><br><br><video autoplay muted loop width="960px" height="210px">
+  <source src="https://f.top4top.io/m_32652wn5g0.mp4" type="video/mp4"></div>
+<div class="kotak">
+<div class="nav1">
+<div class="klik1"><button id="tombol1"></button></div>
+<div class="klik2"><button id="tombol2"></button></div>
+<div class="klik3"><button id="tombol3"></button></div>
+<div class="klik4"><button id="tombol4"></button></div></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div id="konten1" style="display: none;">
+<center><div class="lampu">
+<div class="chat-container">
+<div class="chat-header">
+<div class="bot-avatar">
+<svg viewBox="0 0 24 24">
+<path d="M12,2A10,10 0 1,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 1,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"/></svg></div>
+<h1 class"h1">Nara GPT</h1></div>
+<div class="chat-messages" id="chat-messages"></div>
+<div class="typing-indicator" id="typing-indicator">Nara Sedang Mengetik....</div>
+<div class="input-container">
+<input type="text" id="message-input" placeholder="🙂 ketik pertanyaan....." autocomplete="off">
+<button id="send-button"> <img src="https://d.top4top.io/p_325624h6l0.png" alt="Image" height="20px" width="20px">
+</button></div></div></div></center></div>
+<div id="konten2" style="display: none;">Ini adalah konten 2.</div>
+<div id="konten3" style="display: none;">Ini adalah konten 3</div>
+<div id="konten4" style="display: none;">Ini adalah konten 4</div>
+</div></div></body></html><script>
+const tombol1 = document.getElementById('tombol1');
+const tombol2 = document.getElementById('tombol2');
+const tombol3 = document.getElementById('tombol3');
+const tombol4 = document.getElementById('tombol4');
+const konten1 = document.getElementById('konten1');
+const konten2 = document.getElementById('konten2');
+const konten3 = document.getElementById('konten3');
+const konten4 = document.getElementById('konten4');
+tombol1.addEventListener('click', () => {
+konten1.style.display = 'block';
+konten2.style.display = 'none';
+});
+tombol2.addEventListener('click', () => {
+konten1.style.display = 'none';
+konten2.style.display = 'block';
+});
+tombol3.addEventListener('click', () => {
+konten1.style.display = 'none';
+konten2.style.display = 'block';
+});
+tombol4.addEventListener('click', () => {
+konten1.style.display = 'none';
+konten2.style.display = 'block';
+});
+const messageInput = document.getElementById('message-input');
+const sendButton = document.getElementById('send-button');
+const chatMessages = document.getElementById('chat-messages');
+const typingIndicator = document.getElementById('typing-indicator');
+async function sendMessage() {
+const message = messageInput.value.trim();
+if (!message) return;
+addMessage(message, 'user');
+messageInput.value = '';
+typingIndicator.style.display = 'block';
+try {
+const response = await fetch(`https://darkness.ashlynn.workers.dev/chat/?prompt=${encodeURIComponent(message)}&model=gpt-4o-mini`);
+const data = await response.json();
+typingIndicator.style.display = 'none';
+if (data.successful === 'success' && data.response) {
+addMessage(data.response, 'bot');
+}
+else {
+addMessage('An error occurred. Please try again.', 'bot');
+}
+} 
+catch (error) {
+console.error(error);
+typingIndicator.style.display = 'none';
+ addMessage('An error occurred. Please try again.', 'bot');
+}
+}
+function addMessage(text, sender) {
+const messageDiv = document.createElement('div');
+messageDiv.classList.add('message', `${sender}-message`);
+const messageContent = document.createElement('div');
+messageContent.classList.add('message-content');
+messageContent.textContent = text;
+messageDiv.appendChild(messageContent);
+chatMessages.appendChild(messageDiv);
+chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+sendButton.addEventListener('click', sendMessage);
+messageInput.addEventListener('keypress', (e) => {
+if (e.key === 'Enter') sendMessage();
+});
+addMessage('hallo saya NARA, siap membantu kamu untuk mengerjakan tugas sekolah🥳', 'bot');
+addMessage('kamu mau tanya pelajaran apa? aku bisa jawab loh 🥰', 'bot');
+addMessage('atau kamu bingung mau move-on tanya ajah caranya ke aku🤭 ', 'bot');
+addMessage('tapi inget, aku bukan manusia, tapi siluman Nara 🤣 ', 'bot');
+</script>
